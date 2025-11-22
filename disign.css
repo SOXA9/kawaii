@@ -2,12 +2,12 @@
 
 :root {
     --pixel-size: 4px;
-    --bg-color: #FFB3EE;
+    --bg-color: #ffb3ee;
     --text-color: #fff;
-    --accent-color: #7f50f4;
+    --accent-color: #ffb3ee;
     --nav-color: #7be599; 
-    --nav-hover-color: #9dffb8; 
-    --border-color: #7f50f4;
+    --nav-hover-color: #ffb3ee; 
+    --border-color: #ffb3ee;
     --hover-color: #9d75f6;
     --ready-color: #7be599;
     --dev-color: #ffa500;
