@@ -1,15 +1,15 @@
 :root {
     --pixel-size: 4px;
-    --bg-color: #0a0a1a;
-    --text-color: #fff;
+    --bg-color: #6b1938;
+    --text-color: #ffffff;
     --accent-color: #7f50f4;
     --nav-color: #7be599; 
     --nav-hover-color: #9dffb8; 
     --border-color: #7f50f4;
     --hover-color: #9d75f6;
     --ready-color: #7be599;
-    --dev-color: #ffa500;
-    --panel-bg: rgba(26, 26, 42, 0.95);
+    --dev-color: #2e230e;
+    --panel-bg: rgb(55 55 236 / 95%);
     --glow-color: #7f50f4;
     --pixel-shadow: 8px 8px 0px #000;
     --pixel-glow: 0 0 20px var(--glow-color);
@@ -22,34 +22,36 @@ box-sizing: border-box;
 }
 
 body {
-font-family: 'Montserrat', Arial, sans-serif;
-line-height: 1.6;
-color: #333;
+font-family: 'Montserrat', comic sans ms, sans-serif;
+line-height: 2;
+color: #fbf4ea;
 }
 
 .container {
 max-width: 1200px;
 margin: 0 auto;
-padding: 0 20px;
+padding: 0 10px;
+color: #ffffff;
 }
 
 h2 {
-font-size: 2.5rem;
-margin-bottom: 40px;
+font-size: 1.7rem;
+margin-top: 100px;
+margin-bottom: 11px;
 text-align: center;
-color: #333;
+color: #ffffff;
 }
 
 section {
-padding: 100px 0;
+padding: 10px 0;
 }
 
 /* Шапка и навигация */
 .hero {
-height: 100vh;
-background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x1080') no-repeat center center;
+height: 60vh;
+background: linear-gradient(rgb(255 229 245 / 70%), rgb(242 131 173)), url('https://wallpapers.com/images/featured/nekopara-zva52bzydnnxcqhb.jpg') no-repeat center center;
 background-size: cover;
-color: white;
+color: #ffffff;
 display: flex;
 flex-direction: column;
 }
@@ -83,7 +85,7 @@ transition: color 0.3s ease;
 }
 
 .menu a:hover {
-color: #e67e22;
+color: #0155d2;
 }
 
 .hero-content {
@@ -103,15 +105,15 @@ margin-bottom: 20px;
 
 .hero-content p {
 font-size: 1.5rem;
-margin-bottom: 40px;
+margin-bottom: 140px;
 max-width: 700px;
 }
 
 .btn {
 display: inline-block;
 padding: 15px 30px;
-background-color: #e67e22;
-color: white;
+background-color: #f2ccd9;
+color: #f283ad;
 text-decoration: none;
 font-weight: bold;
 border-radius: 50px;
@@ -119,12 +121,12 @@ transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-background-color: #d35400;
+background-color: #fbf4ea;
 }
 
 /* Раздел "Обо мне" */
 .about-section {
-background-color: #f9f9f9;
+background-color: #f283ad;
 }
 
 .about-content {
@@ -134,13 +136,13 @@ gap: 50px;
 }
 
 .about-image {
-flex: 1;
+flex: ;
 }
 
 .about-image img {
 max-width: 100%;
 border-radius: 10px;
-box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+box-shadow: 0 5px 15px rgb(255 255 255 / 82%);
 }
 
 .about-text {
@@ -150,33 +152,41 @@ flex: 1;
 .about-text h3 {
 font-size: 2rem;
 margin-bottom: 20px;
-color: #e67e22;
+color: #ffffff;
 }
 
 .about-text p {
-margin-bottom: 20px;
+margin-bottom: -14px;
+margin-inline: 20px;
 }
 
-/* Раздел услуг */
+                                                             /* Раздел услуг */ 
 .services-grid {
 display: grid;
+
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 gap: 30px;
 }
 
 .service-card {
-background: white;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 20px;
+margin-bottom: 40px;
+background: #c5396e;
 border-radius: 10px;
 overflow: hidden;
-box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+box-shadow: 0 5px 15px #ffd4ff;
 transition: transform 0.3s ease;
 }
 
 .service-card:hover {
+    
 transform: translateY(-10px);
 }
 
 .service-card img {
+    
 width: 100%;
 height: 200px;
 object-fit: cover;
@@ -184,13 +194,19 @@ object-fit: cover;
 
 .service-card h3, .service-card p {
 padding: 0 20px;
+
 }
 
 .service-card h3 {
-margin-top: 20px;
-color: #e67e22;
+margin-top: 0px;
+color: #fad9e4;
 }
 
+.service-card p {
+line-height: 1.3;
+color: #ffffff;
+margin-bottom: 10px;
+}
 .price {
 font-weight: bold;
 color: #e67e22;
@@ -199,7 +215,7 @@ margin: 20px 0;
 
 /* Контактная форма */
 .contact-section {
-background-color: #f9f9f9;
+background-color: #f283ad;
 }
 
 .contact-content {
@@ -211,7 +227,7 @@ gap: 50px;
 .contact-info h3, .contact-form h3 {
 font-size: 1.8rem;
 margin-bottom: 20px;
-color: #e67e22;
+color: #009f52;
 }
 
 .contact-info p {
@@ -230,14 +246,14 @@ margin-bottom: 5px;
 input, select, textarea {
 width: 100%;
 padding: 10px;
-border: 1px solid #ddd;
+border: 1px solid #787878;
 border-radius: 5px;
 }
 
 /* Подвал */
 footer {
-background-color: #333;
-color: white;
+background-color: #f283ad;
+color: #ffffff;
 text-align: center;
 padding: 30px 0;
 }
