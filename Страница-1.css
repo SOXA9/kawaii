@@ -605,6 +605,10 @@
   bottom: 10px;
 }
 
+.u-section-3 .u-gallery-inner-1 {
+  --gap: 0px;
+}
+
 .u-section-3 .u-carousel-item-1 {
   margin-right: 0;
 }
@@ -682,6 +686,10 @@
 .u-section-3 .u-carousel-indicators-2 {
   position: absolute;
   bottom: 10px;
+}
+
+.u-section-3 .u-gallery-inner-2 {
+  --gap: 0px;
 }
 
 .u-section-3 .u-carousel-item-4 {
@@ -898,19 +906,73 @@
     margin-left: 0;
     margin-right: 0;
   }
-}.u-section-4 .u-sheet-1 {
-  min-height: 400px;
-}
-
-.u-section-4 .u-text-1 {
-  font-family: Zametka_Parletter;
-  margin: 14px auto 60px 106px;
-} .u-section-5 {
+} .u-section-4 {
   margin-top: 20px;
 }
 
-.u-section-5 .u-sheet-1 {
+.u-section-4 .u-sheet-1 {
   min-height: 751px;
+}.u-section-5 .u-sheet-1 {
+  min-height: 400px;
+}
+
+.u-section-5 .u-text-1 {
+  font-family: Zametka_Parletter;
+  margin: 14px auto 0 106px;
+}
+
+.u-section-5 .u-text-2 {
+  font-family: Zametka_Parletter;
+  font-size: 0.875rem;
+  margin: 0 auto 0 106px;
+}
+
+.u-section-5 .u-btn-1 {
+  --radius: 0px;
+  --top-left-radius: 0px;
+  --top-right-radius: 0px;
+  --bottom-right-radius: 0px;
+  --bottom-left-radius: 0px;
+  background-image: none;
+  border-style: solid;
+  font-weight: 700;
+  font-family: Zametka_Parletter;
+  letter-spacing: 3px;
+  margin: 27px auto 0 96px;
+  padding: 0;
+}
+
+.u-section-5 .u-icon-1 {
+  font-size: 2.125em;
+}
+
+.u-section-5 .u-btn-2 {
+  --radius: 0px;
+  --top-left-radius: 0px;
+  --top-right-radius: 0px;
+  --bottom-right-radius: 0px;
+  --bottom-left-radius: 0px;
+  background-image: none;
+  border-style: solid;
+  font-weight: 700;
+  font-family: Zametka_Parletter;
+  letter-spacing: 3px;
+  margin: 0 auto 60px 89px;
+  padding: 0;
+}
+
+.u-section-5 .u-icon-2 {
+  font-size: 2.6876em;
+}
+
+@media (max-width: 1199px) {
+  .u-section-5 .u-btn-1 {
+    margin-left: 0;
+  }
+
+  .u-section-5 .u-btn-2 {
+    margin-left: 0;
+  }
 }
 /* page-custom-fonts */
 @font-face {
