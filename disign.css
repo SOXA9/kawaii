@@ -112,7 +112,7 @@ max-width: 700px;
 .btn {
 display: inline-block;
 padding: 15px 30px;
-background-color: #f2ccd9;
+background-color: #231d24;
 color: #f283ad;
 text-decoration: none;
 font-weight: bold;
@@ -121,7 +121,7 @@ transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-background-color: #fbf4ea;
+background-color:#231d24;
 }
 
 /* Раздел "Обо мне" */
@@ -215,7 +215,7 @@ margin: 20px 0;
 
 /* Контактная форма */
 .contact-section {
-background-color: #f283ad;
+background-color: #231d24;
 }
 
 .contact-content {
