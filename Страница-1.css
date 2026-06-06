@@ -1,0 +1,256 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 588px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Zametka_Parletter;
+  line-height: 1.85;
+  letter-spacing: 2px;
+  margin: 294px 269px 0 241px;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 400;
+  margin-left: 241px;
+  margin-right: 269px;
+  margin-bottom: 60px;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 274px;
+    margin-left: 141px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 141px;
+    margin-right: 169px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 210px;
+    margin-left: 31px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 31px;
+    margin-right: 59px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 158px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 99px;
+  }
+} .u-section-2 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 400px;
+} .u-section-3 {
+  margin-top: 20px;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 893px;
+}
+
+.u-section-3 .u-text-1 {
+  font-family: Zametka_Parletter;
+  font-size: 2.25rem;
+  margin: 26px auto 0;
+}
+
+.u-section-3 .u-group-1 {
+  --radius: 30px;
+  width: 392px;
+  min-height: 514px;
+  height: auto;
+  margin: 37px auto 0 28px;
+}
+
+.u-section-3 .u-container-layout-1 {
+  padding: 30px 14px;
+}
+
+.u-section-3 .u-gallery-1 {
+  height: 208px;
+  margin: 0;
+}
+
+.u-section-3 .u-carousel-indicators-1 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.u-section-3 .u-carousel-item-1 {
+  margin-right: 0;
+}
+
+.u-section-3 .u-over-slide-1 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-3 .u-carousel-item-2 {
+  margin-right: 0;
+}
+
+.u-section-3 .u-over-slide-2 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-3 .u-carousel-control-1 {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.u-section-3 .u-carousel-control-2 {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.u-section-3 .u-group-2 {
+  --radius: 30px;
+  width: 392px;
+  min-height: 522px;
+  height: auto;
+  margin: -523px 313px 60px auto;
+}
+
+.u-section-3 .u-container-layout-2 {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-group-1 {
+    height: auto;
+  }
+
+  .u-section-3 .u-gallery-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-carousel-item-1 {
+    margin-right: initial;
+  }
+
+  .u-section-3 .u-carousel-item-2 {
+    margin-right: initial;
+  }
+
+  .u-section-3 .u-carousel-control-1 {
+    left: 8px;
+  }
+
+  .u-section-3 .u-carousel-control-2 {
+    right: 8px;
+  }
+
+  .u-section-3 .u-group-2 {
+    margin-top: 20px;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-carousel-control-1 {
+    left: 6px;
+  }
+
+  .u-section-3 .u-carousel-control-2 {
+    right: 6px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-3 .u-carousel-control-1 {
+    left: 5px;
+  }
+
+  .u-section-3 .u-carousel-control-2 {
+    right: 5px;
+  }
+
+  .u-section-3 .u-group-2 {
+    margin-right: 148px;
+  }
+
+  .u-section-3 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-text-1 {
+    font-size: 1.875rem;
+  }
+
+  .u-section-3 .u-group-1 {
+    width: 340px;
+    margin-left: 0;
+  }
+
+  .u-section-3 .u-carousel-control-1 {
+    left: 3px;
+  }
+
+  .u-section-3 .u-carousel-control-2 {
+    right: 3px;
+  }
+
+  .u-section-3 .u-group-2 {
+    width: 340px;
+    margin-right: 0;
+  }
+}.u-section-4 .u-sheet-1 {
+  min-height: 400px;
+}
+
+@media (max-width: 767px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 393px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 348px;
+  }
+}
+/* page-custom-fonts */
+@font-face {
+  font-family: 'Zametka_Parletter';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Zametka_Parletter.otf);
+}
