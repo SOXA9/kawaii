@@ -50138,7 +50138,8 @@ a.u-link.u-text-hover-color-var.hover {
   }
 
   .u-header .u-language-1 {
-    margin-top: -199px;
+    margin-top: -233px;
+    margin-right: 75px;
   }
 }
 @media (max-width: 767px) {
@@ -50151,7 +50152,8 @@ a.u-link.u-text-hover-color-var.hover {
   }
 
   .u-header .u-language-1 {
-    margin-top: -199px;
+    margin-top: -233px;
+    margin-right: 0;
   }
 }
 @media (max-width: 575px) {
