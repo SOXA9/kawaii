@@ -49737,7 +49737,7 @@ a.u-link.u-text-hover-color-var.hover {
         }
         .u-body
         {
-        background-image: linear-gradient(#221c2b, #221c2b);
+        background-image: linear-gradient(#221c2b, #2d2933);
         background-attachment: fixed;
         }
         .u-input
@@ -50079,9 +50079,9 @@ a.u-link.u-text-hover-color-var.hover {
  .u-header {
   filter: none;
   background-image: url("images/soxa_background4.png");
-  background-position: 50% 0%;
-  background-size: contain;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .u-header .u-sheet-1 {
