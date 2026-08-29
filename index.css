@@ -901,10 +901,10 @@
   width: 392px;
   min-height: 462px;
   height: auto;
-  --animation-custom_in-translate_x: -400px;
+  --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 45deg;
+  --animation-custom_in-rotate: -45deg;
   --animation-custom_in-scale: 1;
   border-style: double;
   margin: 17px 113px 60px auto;
